@@ -48,7 +48,6 @@ print(f"\nVenda média por dia: {media_vendas_por_dia:.2f}")
 
 
 #Análise Temporal
-datas = my_data[:, 0]
 valores_totais = valor_t
 
 datas_datetime = np.array([datetime.strptime(data, "%Y-%m-%d") for data in datas])
