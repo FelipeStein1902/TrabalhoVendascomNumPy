@@ -42,9 +42,9 @@ for regiao, valor in vendas_totais_por_reg.items():
     print(f"{regiao}: {valor:.2f}")
 
 # Venda média por dia
-datas_unicas = np.unique(datas)
-media_vendas_por_dia = np.sum(valor_t) / len(datas_unicas)
-print(f"\nVenda média por dia: {media_vendas_por_dia:.2f}")
+datas_unc = np.unique(datas)
+med_vnd_por_dia = np.sum(valor_t) / len(datas_unc)
+print(f"Venda média por dia: {med_vnd_por_dia:.2f}")
 
 
 #Análise Temporal
